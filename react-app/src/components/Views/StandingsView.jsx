@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import DriverTable from './Standings/DriversTable'
-import ConstructorsTable from './Standings/ConstructorsTable'
+import DriverTable from '../Standings/DriversTable'
+import ConstructorsTable from '../Standings/ConstructorsTable'
 
 const StandingsView = ({selectedRace}) => {
   const [race, setSelectedRace] = useState(null);
