@@ -10,7 +10,6 @@ const supabase = createClient(supaUrl, supaAnonKey);
 
 const DriverModal = ({ selectedConstructor, open, onClose }) => {
     const [qualify, setQualify] = useState([]);
-    const [age, setAge] = useState('');
     useEffect(() => {
      // if (!selectedYear) return; // If no year is selected, do nothing
  
