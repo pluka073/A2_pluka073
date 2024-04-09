@@ -1,3 +1,5 @@
+//Resources: https://www.youtube.com/watch?v=D5oswSO9y-k
+
 import React from 'react';
 import '../../Modal.css';
 

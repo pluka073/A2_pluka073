@@ -1,3 +1,4 @@
+//Resources: https://www.youtube.com/watch?v=D5oswSO9y-k
 import { useState, useEffect } from 'react';
 import '../../Modal.css';
 import { createClient } from "@supabase/supabase-js";
