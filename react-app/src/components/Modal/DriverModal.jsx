@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../../Modal.css';
 import { createClient } from "@supabase/supabase-js";
-import {differenceInYears} from "date-fns";
 
 const supaUrl = 'https://rtpsslzuthmeiqlmgzgs.supabase.co';
 const supaAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ0cHNzbHp1dGhtZWlxbG1nemdzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDg5OTgxOTMsImV4cCI6MjAyNDU3NDE5M30.cPX5jjynOI_GLePPAQrtVorBVVNLM6oN9VEUfCwyl5c';
