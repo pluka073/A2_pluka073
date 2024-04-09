@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import LoginPage from './components/LoginPage';
+import Home from './components/Home';
+import HeaderApp from './components/HeaderApp';
+import FavoriteView from './components/FavoriteView';
+ // Import the RaceTable component
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      
+      <Routes>
+        <Route path="/" element={<LoginPage />} />
+        <Route path="/home" element={<Home />} />
+      </Routes>
+    </main>
   );
 }
+
+// Define Seasons component to handle SeasonSelect and RaceTable together
+
 
 export default App;

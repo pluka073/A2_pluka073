@@ -1,0 +1,84 @@
+.app-container {
+  font-family: 'Roboto', sans-serif; /* Unique font choice */
+}
+
+.header {
+  background-color: #4CAF50; /* Cool green color */
+  color: #fff; /* White text color */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.header select {
+  padding: 5px;
+  font-family: 'Indie Flower', cursive; /* Unique font choice */
+  color: #333; /* Dark text color */
+}
+
+.header-buttons button {
+  margin-left: 5px;
+  font-family: 'Pacifico', cursive; /* Unique font choice */
+  color: #fff; /* White text color */
+  background-color: #2196F3; /* Cool blue color */
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.race, .results {
+  width: 48%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow: auto;
+}
+
+.race {
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+.results {
+  background-color: #f0f0f0; /* Slightly darker gray background */
+}
+
+.race-results {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  background-color: #e0e0e0; /* Light gray background for table header */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: 'Bungee', cursive; /* Unique font choice */
+  color: #673AB7; /* Cool purple color */
+}
