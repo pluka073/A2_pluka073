@@ -32,18 +32,6 @@ const DriverModal = ({ selectedConstructor, open, onClose }) => {
       fetchQualify();
     }, [selectedConstructor]);
 
-    // const calculateAge = ( date ) => {
-
-    //     const dateObject = new Date(date);
-    //     const today = new Date();
-    //     const ageYears = differenceInYears(today, dateObject);
-
-    
-    //     // Set the age state with the calculated age
-    //     setAge({
-    //         years: ageYears
-    //   });
-    // };
   if (!open) return null;
   return (
     <div onClick={onClose} className='overlay'>

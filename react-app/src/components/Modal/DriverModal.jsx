@@ -10,7 +10,6 @@ const supabase = createClient(supaUrl, supaAnonKey);
 
 const DriverModal = ({ selectedDriver, open, onClose }) => {
     const [qualify, setQualify] = useState([]);
-    const [age, setAge] = useState('');
     useEffect(() => {
      // if (!selectedYear) return; // If no year is selected, do nothing
  
@@ -32,18 +31,7 @@ const DriverModal = ({ selectedDriver, open, onClose }) => {
       fetchQualify();
     }, [selectedDriver]);
 
-    // const calculateAge = ( date ) => {
 
-    //     const dateObject = new Date(date);
-    //     const today = new Date();
-    //     const ageYears = differenceInYears(today, dateObject);
-
-    
-    //     // Set the age state with the calculated age
-    //     setAge({
-    //         years: ageYears
-    //   });
-    // };
   if (!open) return null;
   return (
     <div onClick={onClose} className='overlay'>
